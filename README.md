@@ -8,8 +8,8 @@ Tests are written from [SPEC.md](SPEC.md) and issue text only, never from the si
 
 ```sh
 npm install
-npx playwright install
-BASE_URL=https://your-live-site.example npx playwright test
+npx playwright install chromium
+BASE_URL=https://your-live-site.example npm test
 ```
 
 On Windows PowerShell, set the URL with `$env:BASE_URL = "https://..."` first.

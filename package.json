@@ -1,0 +1,18 @@
+{
+  "name": "youming-site-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Functional tests for youming-site, written in Playwright with TypeScript.",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forfeit-15/youming-site-tests.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}
